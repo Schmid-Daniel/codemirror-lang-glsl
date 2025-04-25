@@ -1,6 +1,6 @@
 {
   "name": "codemirror-lang-glsl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "GLSL language support for the CodeMirror code editor",
   "scripts": {
     "prepare": "cm-buildhelper src/glsl.ts"
@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "@codemirror/language": "^6.11.0",
-    "lezer-glsl": "^0.2.0"
+    "lezer-glsl": "0.3.0"
   },
   "devDependencies": {
     "@codemirror/buildhelper": "^1.0.0"
